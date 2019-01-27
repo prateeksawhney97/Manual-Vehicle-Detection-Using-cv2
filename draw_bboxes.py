@@ -21,4 +21,6 @@ def draw_boxes(img, bboxes, color=(0, 0, 255), thick=6):
 bboxes = [((100, 100), (200, 200)), ((300, 300), (400, 400))]
 
 result = draw_boxes(image, bboxes)
+#print(2)
+
 plt.imshow(result)
