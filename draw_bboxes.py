@@ -23,4 +23,4 @@ bboxes = [((100, 100), (200, 200)), ((300, 300), (400, 400))]
 result = draw_boxes(image, bboxes)
 #print(2)
 
-plt.imshow(result)
+cv2.imshow("image", result)
